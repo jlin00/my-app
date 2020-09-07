@@ -5,7 +5,7 @@ function Home() {
   return(
     <div>
       <h2>Login</h2>
-      <form action="/users">
+      <form action="/my-app/#/users">
         <label for="username">Username:</label><br />
         <input type="text" id="username" name="username" /><br />
         <label for="password">Password:</label><br />
